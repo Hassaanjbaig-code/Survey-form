@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form action="" id="survey-form">
+      <div class="inside-form">
+        <label for="Name" id="name-label">Name</label><br />
+        <input
+          id="name"
+          type="name"
+          name="name"
+          class="form"
+          required
+          placeholder="Full Name"
+        />
+        <br />
+        <label id="email-label"><b>Email:</b></label
+        ><br />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          class="form"
+          required
+          placeholder="example@mail.com"
+        /><br />
+        <br />
+        <label for="Age" id="number-label">Age</label><br />
+        <input
+          type="number"
+          name="number"
+          class="form"
+          min="10"
+          max="99"
+          placeholder="Age"
+          id="number"
+        />
+        <br />
+        <p>Which option best describes your current role?</p>
+        <br />
+        <select name="" id="dropdown" class="form">
+          <option value="Communication">Student</option>
+          <option value="Communication">Full time</option>
+          <option value="Communication">Part time</option>
+        </select>
+        <br />
+        <div class="form-group">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <label for="">
+            <input type="radio" name="name" value="radio" id="" />
+            Definitely </label
+          ><br />
+          <label for="">
+            <input type="radio" name="name" value="radio" id="" />
+            Maybe
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What would you like to see improved? (Check all that apply)</p>
+          <label for="">
+            <input type="checkbox" name="" value="suravey-form" id="" />
+            Front-end Project
+          </label>
+          <br />
+          <label for="">
+            <input type="checkbox" name="" value="suravey-form" id="" />
+            Back-end Project
+          </label>
+          <br />
+          <label for="">
+            <input type="checkbox" name="" value="suravey-form" id="" />
+            Data Visualization
+          </label>
+          <br />
+          <label for="">
+            <input type="checkbox" name="" value="suravey-form" id="" />
+            Challenges
+          </label>
+          <br />
+          <label for="">
+            <input type="checkbox" name="" value="suravey-form" id="" />
+            Video
+          </label>
+          <br />
+        </div>
+        <div id="survey-form">
+          <p>Any comments or suggestions?</p>
+          <textarea name="" id="survey-form" cols="30" rows="10" class="form-textbox"></textarea
+          ><br />
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
